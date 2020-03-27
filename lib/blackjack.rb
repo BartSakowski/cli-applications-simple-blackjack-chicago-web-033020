@@ -32,11 +32,12 @@ card_total
 end
 
 def hit?(number)
-  puts "Please enter a valid command"
+
 
 end
 
 def invalid_command
+  puts "Please enter a valid command"
   # code invalid_command here
 end
 
