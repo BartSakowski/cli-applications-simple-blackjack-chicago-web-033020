@@ -32,7 +32,7 @@ card_total
 end
 
 def hit?(number)
-
+prompt_user
 
 end
 
