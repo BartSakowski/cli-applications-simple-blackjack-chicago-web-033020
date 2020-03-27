@@ -37,19 +37,12 @@ input = get_user_input
 
 if input == "s"
   card_total
-else input == "h"
+elsif input == "h"
   deal_card + card_total
+else
+  invalid_command
 end
 
-  # if 's'
-  #   display_card_total(card_total)
-  # elsif 'h'
-  #   deal_card
-  #   display_card_total(card_total)
-  # else
-  #   invalid_command
-  #   display_card_total(card_total)
-  # end
 end
 
 def invalid_command
