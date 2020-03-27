@@ -31,9 +31,18 @@ display_card_total(card_total)
 card_total
 end
 
-def hit?(number)
+def hit?(card_total)
 prompt_user
 get_user_input
+  if 's'
+    display_card_total(card_total)
+  elsif 'h'
+    deal_card
+  else
+    invalid_command
+  end
+  
+end
 
 end
 
