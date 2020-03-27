@@ -38,8 +38,10 @@ get_user_input
     display_card_total(card_total)
   elsif 'h'
     deal_card
+    display_card_total(card_total)
   else
     invalid_command
+    display_card_total(card_total)
   end
 
 end
