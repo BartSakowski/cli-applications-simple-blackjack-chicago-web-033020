@@ -31,7 +31,8 @@ display_card_total(card_total)
 card_total
 end
 
-def hit?
+def hit?(current_card)
+  prompt_user
 
 end
 
