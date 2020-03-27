@@ -41,7 +41,7 @@ get_user_input
   else
     invalid_command
   end
-  
+
 end
 
 end
