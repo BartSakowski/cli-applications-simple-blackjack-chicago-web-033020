@@ -40,9 +40,9 @@ elsif input == "h"
   deal_card + card_total
 else
   invalid_command
-  card_total
-end
+  prompt_user
 
+end
 end
 
 def invalid_command
