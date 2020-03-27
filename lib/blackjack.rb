@@ -38,7 +38,7 @@ input = get_user_input
 if input == "s"
   card_total
 else input == "h"
-  deal_card + current_card_total
+  deal_card + card_total
 end
 
   # if 's'
