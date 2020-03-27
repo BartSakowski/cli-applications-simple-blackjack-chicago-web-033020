@@ -33,8 +33,14 @@ end
 
 def hit?(card_total)
 prompt_user
-get_user_input
-card_total
+input = get_user_input
+
+if input == "s"
+  card_total
+else input == "h"
+  deal_card + current_card_total
+end
+
   # if 's'
   #   display_card_total(card_total)
   # elsif 'h'
