@@ -32,7 +32,7 @@ card_total
 end
 
 def hit?(number)
-  print "Please enter a valid command"
+  puts "Please enter a valid command"
 
 end
 
